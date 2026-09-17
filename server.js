@@ -16,7 +16,7 @@ const {
 } = require("./controllers/studentController.js");
 const app = express();
 app.use(express.json());
-const port = 5000;
+const port = 5440;
 mongoose
   .connect("mongodb://localhost:27017/csea_athidi")
   .then(() => {
